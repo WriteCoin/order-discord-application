@@ -54,4 +54,10 @@ const directionStrings = Object.keys(Enum).filter(key => isNaN(Number(key)));
 
 console.log(DateTime.now())
 
+console.log(DateTime.now())
+console.log(DateTime.now().toString())
+
+
+
 console.log(JSON.stringify({ date: DateTime.now() }))
+console.log(JSON.stringify({ date: DateTime.now().toString() }))
